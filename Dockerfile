@@ -1,4 +1,4 @@
-FROM golang:1.12.4-stretch AS goimage
+FROM golang:1.13-stretch AS goimage
 
 ENV IMAGEMAGICK_VERSION 7.0.8-41
 ENV DEP_VERSION 0.5.1
